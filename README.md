@@ -4,9 +4,9 @@ In this repo you will find packer template to bring up Vagrant box with Nginx in
 
 ## Prerequisites
 
-* Install [Vagrant](https://www.vagrantup.com/downloads)
-* Install [VirtualBox](https://www.virtualbox.org/wiki/Downloads)  
 * Install [Packer](https://learn.hashicorp.com/tutorials/packer/get-started-install-cli)
+* Install [Vagrant](https://www.vagrantup.com/downloads)  
+* Install [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 
 
 ## Instructions
@@ -50,10 +50,8 @@ In this repo you will find packer template to bring up Vagrant box with Nginx in
 
   ```bash
   $ vagrant up
-  ```      
-  
-     
-    
-    
+  ```    
+ 
+ ## Additional Resources
 *For more information on how to use packer to build Vagrant box, you may visit:*    
 https://www.packer.io/docs/builders/vagrant
