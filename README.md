@@ -36,14 +36,10 @@ In this repo you will find packer template to bring up Vagrant box with Nginx in
   $ cd output-ubuntu
   ```
 
-* To avoid Vagrant init collisions, create new directoy add the new package.box to Vagrant and init. Examle commands:
+* Add the new packet to Vagrant:
 
   ```bash
-  $ mkdir output2
-  $ cp package.box output2/newbox.box
-  $ cd output2
-  $ vagrant box add new-box newbox.box
-  $ vagrant init new-box
+  $ vagrant box add new-box package.box
   ```    
 
 * Bring up the new virtual box created by packer:
