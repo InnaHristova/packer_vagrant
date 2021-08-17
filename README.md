@@ -52,6 +52,22 @@ In this repo you will find packer template to bring up Vagrant box with Nginx in
   $ vagrant up
   ```    
  
+## Publishing of the box    
+
+You may publish your box in two ways:
+
+* via UI  
+  * Go to https://app.vagrantup.com and login  
+  * Follow the steps:  
+    * Create name  
+    * Create version  
+    * Release the version with "release version" button  
+    * Add provider virtualbox
+    * Upload the box from your computer
+    * In Dashboard you can see your boxes
+    
+* via CLI
+ 
  ## Additional Resources
 *For more information on how to use packer to build Vagrant box, you may visit:*    
 https://www.packer.io/docs/builders/vagrant
