@@ -55,12 +55,15 @@ You may publish your box in two ways:
 * via UI  
   * Go to https://app.vagrantup.com and login  
   * Follow the steps:  
-    * Create name  
+    * Create name, add description and click "Create box"    
+    ![image](/Users/innahristovahristova/Desktop/Firststep.png) 
     * Create version  
-    * Release the version with "release version" button  
-    * Add provider virtualbox
-    * Upload the box from your computer
-    * In Dashboard you can see your boxes
+    * Add a provider   
+    * Add provider's name and click "continue to upload" 
+    * Add provider file and click update provider    
+    * Release the version with "release" button   
+    * Clich release version again    
+    * In Dashboard you can see your boxes    
     
 * via CLI    
   * Securely authenticate to Vagrant cloud first:    
