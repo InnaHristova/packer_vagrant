@@ -77,6 +77,10 @@ You may publish your box in two ways:
       $ export VAGRANT_CLOUD_TOKEN=[your token key]
       ```    
    * Upload the box with the following command:    
+     ```
+     $ vagrant cloud publish --no-private <ORGANIZATION/BOX-NAME> <VERSION> <PROVIDER-NAME>
+     ```    
+   
  
 ## Additional Resources
 *For more information on how to use packer to build Vagrant box, you may visit:*    
