@@ -66,8 +66,15 @@ You may publish your box in two ways:
     * Upload the box from your computer
     * In Dashboard you can see your boxes
     
-* via CLI
+* via CLI    
+  * Securely authenticate to Vagrant first:    
+      * using username and password:    
+   ```bash
+   $ vagrant cloud auth login
+   ```
+   
  
  ## Additional Resources
 *For more information on how to use packer to build Vagrant box, you may visit:*    
 https://www.packer.io/docs/builders/vagrant
+https://www.vagrantup.com/docs/cli/cloud
