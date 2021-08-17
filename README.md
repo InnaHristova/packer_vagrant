@@ -80,5 +80,5 @@ You may publish your box in two ways:
  
 ## Additional Resources
 *For more information on how to use packer to build Vagrant box, you may visit:*    
-https://www.packer.io/docs/builders/vagrant
+https://www.packer.io/docs/builders/vagrant    
 https://www.vagrantup.com/docs/cli/cloud
