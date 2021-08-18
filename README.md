@@ -36,16 +36,10 @@ In this repo you will find packer template to bring up Vagrant box with Nginx in
   $ cd output-ubuntu
   ```
 
-* Add the new packet to Vagrant:
+* You may add the new box to Vagrant:
 
   ```bash
   $ vagrant box add new-box package.box
-  ```    
-
-* Bring up the new virtual box created by packer:
-
-  ```bash
-  $ vagrant up
   ```    
  
 ## Publishing of the box    
@@ -89,7 +83,7 @@ You may publish your box in two ways:
       ```    
    * Upload the box with the following command:    
      ```
-     $ vagrant cloud publish --no-private <ORGANIZATION/BOX-NAME> <VERSION> <PROVIDER-NAME>
+     $ vagrant cloud publish --no-private <ORGANIZATION/BOX-NAME> <VERSION> virtualbox output-ubuntu/package.box
      ```    
    
  
